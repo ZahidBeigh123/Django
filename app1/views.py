@@ -1,5 +1,5 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def say_salam(request):
-    return HttpResponse("As salam u alaikum") 
+def home(request):
+    return HttpResponse('<h1>As salam u alaikum<h1/>') 
