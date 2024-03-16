@@ -19,5 +19,5 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('app1/',include('app1.urls'))  #all requests that start with app1 should be handled by this app
+    path('',include('app1.urls'))  #all requests that start with app1 should be handled by this app
 ]
